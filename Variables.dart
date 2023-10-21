@@ -8,7 +8,7 @@ void main() {
   print(number.isOdd);
   print(variable.runtimeType);
 
-  String greeting = ' Hello';
+  String greeting = 'Hello';
   greeting += 'Yolo'; //? Should be avoided
   print(greeting);
   greeting =
