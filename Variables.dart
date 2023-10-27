@@ -22,7 +22,8 @@ void main() {
   print('Hello \n World');
 
   var someValue = 10;
-  final someValue2 = DateTime.now(); //? Final variable can only be assigned once.
+  final someValue2 = DateTime
+      .now(); //? Final variable can only be assigned once, but actually it's value changes.
   const someValue3 = 10; //? Const variable's value can't be changed at anytime.
   print(someValue);
   print(someValue2);

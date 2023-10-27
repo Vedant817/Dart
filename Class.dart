@@ -1,6 +1,6 @@
 //? Classes are blue prints for creating a object.
 void main() {
-  //! Cookie cookie = Cookie();
+  //* Cookie cookie = Cookie();
   Cookie(); //* Instantiated a class
   print(Cookie());
   print(Cookie().shape);

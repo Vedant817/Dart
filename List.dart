@@ -11,7 +11,19 @@ void main() {
   print(list[0]);
 
   final student = Students('Vedant');
-  final stud = Students <int> (31);
+  final stud = Students<int>(31);
+
+  List<Students> stu = [
+    Students('Vedant'),
+    Students('Vanshay'),
+    Students('Walter White'),
+  ];
+  stu[2] = Students('Jesse Pinkman'); //? Changing the value
+  print(stu);
+  stu.add(Students('Vedant')); //? Pushes the value added at the last.
+  print(stu);
+  stu.insert(1, Students('Sanya'));
+  print(stu);
 }
 
 class Students<T> {
