@@ -24,6 +24,16 @@ void main() {
   print(stu);
   stu.insert(1, Students('Sanya'));
   print(stu);
+  //! We can't remove any element the way we insert it to the List there is being another way by defining an instant of it.
+  final Vedant = Students('Vedant');
+  stu.add(Vedant);
+  print(stu);
+  stu.remove(Vedant);
+  print(stu);
+
+  //! Iterables are the type of list in which we can't add or remove the element but other functions are same as the list.
+  Iterable<int> Numbers = {5, 10, 15, 20};
+  final filteredStudent = stu.where((student) => student.name =='Vanshay');
 }
 
 class Students<T> {
