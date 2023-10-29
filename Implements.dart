@@ -1,5 +1,5 @@
 void main() {}
-//* We can extends some class and implement some class to the same class but we can't extend and implement same class at the same time.
+//* We can extends some class and implement some other class to the same class but we can't extend and implement same class at the same time.
 class Vehicle {
   bool isEngineWorking = false;
   bool isLightOn = true;
