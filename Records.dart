@@ -1,4 +1,4 @@
-//? Records are the immutable entities in dart. These have getters but no setters.
+//? Records are the immutable entities in dart. These have getters but no setters. Similar to the Tuples in Python.
 void main() {
   final records = (45, 'Hey', true, 5);
   print(records);
